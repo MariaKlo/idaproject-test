@@ -5,12 +5,12 @@ export default {
 </script>
 
 <template>
-  <h4 class='cart__name'>Описание товара</h4>
+  <h4 class='cart__name-textarea'>Описание товара</h4>
   <textarea name='link' class='cart__textarea' placeholder='Введите описание товара'></textarea>
 </template>
 
 <style lang="scss">
-  .cart__name {
+  .cart__name-textarea {
     font-size: .625rem;
     margin-bottom: .875rem;
     position: relative;
@@ -28,6 +28,25 @@ export default {
 
     &::placeholder {
       color: #B4B4B4;
+    }
+    &:hover {
+      border: 1px solid rgba(199, 199, 199, 0.5);
+      color: rgba(199, 199, 199, 0.9);
+    }
+    &:focus-visible {
+      outline: none;
+      color: rgba(199, 199, 199, 0.9);
+    }
+    &:focus-within {
+      color: rgba(199, 199, 199, 0.9);
+    }
+    &:focus {
+      border: 1px solid rgba(199, 199, 199, 0.5);
+      color: rgba(199, 199, 199, 0.9);
+    }
+    &:active {
+      border: 1px solid rgba(199, 199, 199, 0.5);
+      color: rgba(199, 199, 199, 0.9);
     }
   }
 </style>

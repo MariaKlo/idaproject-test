@@ -13,10 +13,19 @@ export default {
   <div class="cart__wrapper">
     <h1 class="cart__header">Добавление товара</h1>
     <form class="cart__form">
-      <Input/>
+      <Input
+      :text="'Наименование товара'"
+      :type-input="'text'"
+      :placeholder="'Введите наименование товара'"/>
       <Textarea/>
-      <Input/>
-      <Input/>
+      <Input
+      :text="'Ссылка на изображение товара'"
+      :type-input="'text'"
+      :placeholder="'Введите ссылку'"/>
+      <Input
+      :text="'Цена товара'"
+      :type-input="'number'"
+      :placeholder="'Введите цену'"/>
       <Button/>
     </form>
   </div>

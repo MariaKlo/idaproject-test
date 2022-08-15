@@ -1,29 +1,46 @@
 <script>
 export default {
   name: 'Input',
+  props: {
+    text: {
+      type: String,
+      required: true,
+    },
+    placeholder: {
+      type: String,
+      required: false,
+    },
+    typeInput: {
+      type: String,
+      required: true,
+    },
+  },
 };
 </script>
 
 <template>
-  <h4 class="cart__name">Наименование товара</h4>
-  <input name='item' type='text' placeholder='Введите цену' class='cart__input'>
+  <h4 class="cart__name">{{ text }}</h4>
+  <input name='item' :type='typeInput' :placeholder='placeholder' class='cart__input' required>
 </template>
 
 <style lang="scss">
+@import "../../styles/base/_mixins.scss";
+
   .cart__name {
     font-size: .625rem;
     margin-bottom: .875rem;
     position: relative;
 
-    &::after {
-      content: '';
-      background-color: #FF8484;
-      width: .25rem;
-      height: .25rem;
-      border-radius: 50%;
-      position: absolute;
-      top: 0.1rem;
-      right: 10.95rem;
+    &:nth-child(1)::after {
+      @include red-dot(0.1rem, 10.95rem);
+    }
+
+    &:nth-child(5)::after {
+      @include red-dot(0.1rem, 8.2rem);
+    }
+
+    &:nth-child(7)::after {
+      @include red-dot(0.1rem, 13.7rem);
     }
   }
   .cart__input {
@@ -38,6 +55,25 @@ export default {
 
     &::placeholder {
       color: #B4B4B4;
+    }
+    &:hover {
+      border: 1px solid rgba(199, 199, 199, 0.5);
+      color: rgba(199, 199, 199, 0.9);
+    }
+    &:focus-visible {
+      outline: none;
+      color: rgba(199, 199, 199, 0.9);
+    }
+    &:focus-within {
+      color: rgba(199, 199, 199, 0.9);
+    }
+    &:focus {
+      border: 1px solid rgba(199, 199, 199, 0.5);
+      color: rgba(199, 199, 199, 0.9);
+    }
+    &:active {
+      border: 1px solid rgba(199, 199, 199, 0.5);
+      color: rgba(199, 199, 199, 0.9);
     }
   }
 </style>

@@ -1,0 +1,10 @@
+@mixin red-dot ($top, $right) {
+  content: '';
+  background-color: #FF8484;
+  width: .25rem;
+  height: .25rem;
+  border-radius: 50%;
+  position: absolute;
+  top: $top;
+  right: $right;
+}
