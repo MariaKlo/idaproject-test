@@ -1,14 +1,3 @@
-<template>
-    <form>
-        <h1>Добавление товара</h1>
-        <Input/>
-        <Textarea/>
-        <Input/>
-        <Input/>
-        <Button/>
-    </form>
-</template>
-
 <script>
 import Input from './ui/Input.vue';
 import Textarea from './ui/Textarea.vue';
@@ -19,3 +8,14 @@ export default {
   components: { Input, Textarea, Button },
 };
 </script>
+
+<template>
+  <form>
+    <h1>Добавление товара</h1>
+    <Input/>
+    <Textarea/>
+    <Input/>
+    <Input/>
+    <Button/>
+  </form>
+</template>

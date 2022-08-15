@@ -1,17 +1,3 @@
-<template>
-    <div class='cart__items'>
-        <Item/>
-        <Item/>
-        <Item/>
-        <Item/>
-        <Item/>
-        <Item/>
-        <Item/>
-        <Item/>
-        <Item/>
-    </div>
-</template>
-
 <script>
 import Item from './Item.vue';
 
@@ -20,3 +6,17 @@ export default {
   components: { Item },
 };
 </script>
+
+<template>
+  <div class='cart__items'>
+    <Item/>
+    <Item/>
+    <Item/>
+    <Item/>
+    <Item/>
+    <Item/>
+    <Item/>
+    <Item/>
+    <Item/>
+  </div>
+</template>
