@@ -39,7 +39,7 @@ module.exports = {
     }),
     new ForkTsCheckerWebpackPlugin(),
     new FaviconsWebpackPlugin({
-      logo: './src/assets/icon/icon.png',
+      logo: './assets/icon/icon.png',
       cache: true,
     }),
   ],

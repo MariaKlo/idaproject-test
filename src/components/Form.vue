@@ -10,12 +10,29 @@ export default {
 </script>
 
 <template>
-  <form>
-    <h1>Добавление товара</h1>
-    <Input/>
-    <Textarea/>
-    <Input/>
-    <Input/>
-    <Button/>
-  </form>
+  <div class="cart__wrapper">
+    <h1 class="cart__header">Добавление товара</h1>
+    <form class="cart__form">
+      <Input/>
+      <Textarea/>
+      <Input/>
+      <Input/>
+      <Button/>
+    </form>
+  </div>
 </template>
+
+<style lang="scss">
+  .cart__header {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  .cart__form {
+    width: 20.75rem;
+    height: 27.5rem;
+    background-color: #FFFEFB;
+    padding: 1.5rem;
+    border-radius: .3125rem;
+  }
+</style>

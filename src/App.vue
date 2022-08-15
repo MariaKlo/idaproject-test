@@ -18,3 +18,15 @@ export default {
     </div>
   </section>
 </template>
+
+<style lang="scss">
+  .cart {
+    padding-top: 2rem;
+
+    &__wrap {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+</style>

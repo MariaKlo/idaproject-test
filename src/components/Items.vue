@@ -20,3 +20,10 @@ export default {
     <Item/>
   </div>
 </template>
+
+<style lang="scss">
+  .cart__items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+</style>
