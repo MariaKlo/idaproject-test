@@ -30,7 +30,7 @@ export default {
   }
   .cart__form {
     width: 20.75rem;
-    height: 27.5rem;
+    height: 32.5rem;
     background-color: #FFFEFB;
     padding: 1.5rem;
     border-radius: .3125rem;
