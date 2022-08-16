@@ -56,4 +56,10 @@ export default {
     font-weight: 600;
     font-size: 1.5rem;
   }
+  @media screen and (max-width: 47.3125rem) {
+    .cart__wrapper {
+      margin: 0 auto;
+      margin-bottom: 1rem;
+    }
+  }
 </style>

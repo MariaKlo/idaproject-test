@@ -47,4 +47,16 @@ export default {
     padding: 1.5rem;
     border-radius: .3125rem;
   }
+
+  @media screen and (max-width: 47.3125rem) {
+    .cart__wrapper-form {
+      margin-right: 0;
+    }
+    .cart__header {
+      text-align: center;
+    }
+    .cart__form {
+      margin: 0 auto;
+    }
+  }
 </style>

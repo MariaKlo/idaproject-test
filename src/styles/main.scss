@@ -29,3 +29,8 @@ a {
     place-items: center;
   }
 }
+@media screen and (max-width: 47.3125rem) {
+  #app {
+    padding: 0;
+  }
+}

@@ -27,4 +27,9 @@ export default {
     flex-wrap: wrap;
     padding-top: 2.75rem;
   }
+  @media screen and (max-width: 47.3125rem) {
+    .cart__items {
+      display: inherit;
+    }
+  }
 </style>

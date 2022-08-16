@@ -29,4 +29,10 @@ export default {
     }
   }
 
+  @media screen and (max-width: 47.3125rem) {
+    .cart__wrap {
+      display: inherit;
+    }
+  }
+
 </style>
