@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-  <div class="cart__wrapper">
+  <div class="cart__wrapper-form">
     <h1 class="cart__header">Добавление товара</h1>
     <form class="cart__form">
       <Input
@@ -32,6 +32,9 @@ export default {
 </template>
 
 <style lang="scss">
+  .cart__wrapper-form {
+    margin-right: 1rem;
+  }
   .cart__header {
     font-size: 1.75rem;
     font-weight: 600;

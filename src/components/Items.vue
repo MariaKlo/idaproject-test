@@ -25,5 +25,6 @@ export default {
   .cart__items {
     display: flex;
     flex-wrap: wrap;
+    padding-top: 2.75rem;
   }
 </style>
