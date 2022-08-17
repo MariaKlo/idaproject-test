@@ -1,14 +1,14 @@
 # Idaproject-test
 
-This template should help get you started developing with Vue 3 in Vite.
+Тестовое задание от Idaproject. Выполнен уровень 1.
 
-## Recommended IDE Setup
+# Node version: 16.15.1
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+# Vue version: 3.2.37
 
-## Customize configuration
+# Vite version: 3.0.6
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+# Eslint version: 8.22.0
 
 ## Project Setup
 
