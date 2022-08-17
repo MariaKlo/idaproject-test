@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "deploy": "gh-pages -d dist -r https://github.com/MariaKlo/idaproject-test.git"
+    "build": "vue-cli-service build"
   },
   "author": "Maria Klochkova",
   "license": "ISC",
@@ -36,7 +35,6 @@
     "eslint-loader": "^4.0.2",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-vue": "^9.3.0",
-    "gh-pages": "^4.0.0",
     "node-sass": "^7.0.1",
     "sass-loader": "^13.0.2",
     "style-loader": "^3.3.1"
